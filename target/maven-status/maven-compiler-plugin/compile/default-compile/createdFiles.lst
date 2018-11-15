@@ -1,0 +1,15 @@
+web\configs\SpringSecurityInitializer.class
+web\configs\MyFrontController.class
+web\configs\MongoConfig.class
+web\configs\SpringSecutiryConfig.class
+web\models\Switch.class
+web\globalvars\DbConfig.class
+web\controllers\SwitchController3.class
+web\globalvars\JwtVariable.class
+web\services\UserDetailsServiceImpl.class
+web\models\UserType.class
+web\controllers\LoginController.class
+web\daos\UserRepository.class
+web\models\User.class
+web\configs\MVCWebConfig.class
+web\daos\SwitchRepository.class

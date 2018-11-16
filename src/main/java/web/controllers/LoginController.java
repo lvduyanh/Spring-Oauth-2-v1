@@ -39,18 +39,38 @@ public class LoginController {
 		System.out.println(token);
 		ModelAndView mv = new ModelAndView();
 		if (principal == null) {
-			mv.setViewName("login");
+			mv.setViewName("login2");
 		} else {
 			if (token != null) {
 				System.out.println("asfassf");
 				res.sendRedirect("home?access_token=" + token);
-			}
-			else
+			} else {
 				res.sendRedirect("home");
+			}
 			return null;
 		}
 		return mv;
 	}
+
+//	@RequestMapping(value = { "login" }, method = RequestMethod.GET)
+//	public ModelAndView login(Principal principal, HttpServletResponse res, HttpServletRequest req) throws IOException {
+//		System.out.println("login get");
+//		String token = req.getParameter("access_token");
+//		System.out.println(token);
+//		ModelAndView mv = new ModelAndView();
+//		if (principal == null) {
+//			mv.setViewName("login");
+//		} else {
+//			if (token != null) {
+//				System.out.println("asfassf");
+//				res.sendRedirect("home?access_token=" + token);
+//			}
+//			else
+//				res.sendRedirect("home");
+//			return null;
+//		}
+//		return mv;
+//	}
 
 	@RequestMapping(value = "home", method = RequestMethod.GET)
 	public ModelAndView home(Principal principal, HttpServletRequest req, HttpServletResponse res) {

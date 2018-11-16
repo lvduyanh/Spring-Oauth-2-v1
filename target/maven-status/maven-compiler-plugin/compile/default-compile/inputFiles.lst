@@ -1,4 +1,5 @@
 D:\simrel02\testoauth2\src\main\java\web\controllers\LoginController.java
+D:\simrel02\testoauth2\src\main\java\web\security\TokenFilter.java
 D:\simrel02\testoauth2\src\main\java\web\configs\MVCWebConfig.java
 D:\simrel02\testoauth2\src\main\java\web\globalvars\DbConfig.java
 D:\simrel02\testoauth2\src\main\java\web\globalvars\JwtVariable.java
@@ -9,7 +10,10 @@ D:\simrel02\testoauth2\src\main\java\web\models\UserType.java
 D:\simrel02\testoauth2\src\main\java\web\daos\UserRepository.java
 D:\simrel02\testoauth2\src\main\java\web\configs\MyFrontController.java
 D:\simrel02\testoauth2\src\main\java\web\models\Switch.java
+D:\simrel02\testoauth2\src\main\java\web\configs\ResourceServerConfig.java
 D:\simrel02\testoauth2\src\main\java\web\configs\SpringSecutiryConfig.java
+D:\simrel02\testoauth2\src\main\java\web\globalvars\ServerConfigVar.java
+D:\simrel02\testoauth2\src\main\java\web\configs\AuthorizationServerConfig.java
 D:\simrel02\testoauth2\src\main\java\web\daos\SwitchRepository.java
 D:\simrel02\testoauth2\src\main\java\web\services\UserDetailsServiceImpl.java
 D:\simrel02\testoauth2\src\main\java\web\configs\SpringSecurityInitializer.java

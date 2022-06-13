@@ -6,9 +6,6 @@ function FindProxyForURL(url, host) {
 }
 
 function useProxy(host) {
-  if (dnsDomainIs(host, "unpkg.com") || dnsDomainIs(host, "grammarly.com") || dnsDomainIs(host, "wikipedia.org")
-     || dnsDomainIs(host, "googleusercontent.com")) {
-    return true;
-  }
-  return false;
+  return dnsDomainIs(host, "unpkg.com") || dnsDomainIs(host, "grammarly.com")
+    || dnsDomainIs(host, "wikipedia.org") || dnsDomainIs(host, "googleusercontent.com");
 }

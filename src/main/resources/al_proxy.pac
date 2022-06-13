@@ -4,3 +4,10 @@ function FindProxyForURL(url, host) {
   }
   return "DIRECT";
 }
+
+function useProxy() {
+  if (dnsDomainIs(host, ".unpkg.com") || dnsDomainIs(host, ".grammarly.com") || dnsDomainIs(host, ".wikipedia.org")) {
+    return true;
+  }
+  return false;
+}

@@ -7,6 +7,8 @@ function useProxy(host) {
         dnsDomainIs(host, 'googlevideo.com') ||
         dnsDomainIs(host, 'grammarly.com') ||
         dnsDomainIs(host, 'translate.google.com') ||
+        dnsDomainIs(host, 'cdn.sstatic.net') ||
+        dnsDomainIs(host, 'stackoverflow.com') ||
         dnsDomainIs(host, 'bootstrapcdn.com') ||
         dnsDomainIs(host, 'ampproject.org') ||
         dnsDomainIs(host, 'netaos.us') ||
